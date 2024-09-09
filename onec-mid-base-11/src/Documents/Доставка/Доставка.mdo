@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e51b8471-12fb-4c61-931a-0a64811ec4b3">
+  <producedTypes>
+    <objectType typeId="cd39c4c3-0d3b-4bd6-a722-06d119e35dd6" valueTypeId="0da05a27-40b5-4b93-b122-57f3cd620a94"/>
+    <refType typeId="a28cd21a-a515-488e-b555-288def31917c" valueTypeId="7bdbe83b-65b3-48c1-896a-534fb1076508"/>
+    <selectionType typeId="82e82d17-be1d-4cac-81f4-399e91097d97" valueTypeId="76462e05-35fd-4a0e-8312-c16504cc2efb"/>
+    <listType typeId="edd89026-5254-46b0-889e-7a93bc512d7c" valueTypeId="06f7959f-e848-4642-9f1a-8798198a59a0"/>
+    <managerType typeId="20737dcd-5d57-4404-9c31-2a2233b14bfe" valueTypeId="4722d784-f649-4828-bb9c-8c95129df221"/>
+  </producedTypes>
+  <name>Доставка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доставка</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Доставка.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Доставка.Form.ФормаДокумента</defaultObjectForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="f988a4c5-02a6-4310-9b35-e7af1811be0b">
+    <name>Основание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="8359ea16-67a6-47fc-acf8-9d9fb206e632">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>
