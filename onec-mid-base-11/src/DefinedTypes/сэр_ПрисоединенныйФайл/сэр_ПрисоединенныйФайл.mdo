@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ccb33a89-458c-40e1-9312-d3b8dcdfe047">
+  <producedTypes>
+    <containerType typeId="b049553c-5022-49c6-8da5-50431f154682" valueTypeId="bac0b51c-424a-40d2-b53e-6a5d5d7b54f4"/>
+  </producedTypes>
+  <name>сэр_ПрисоединенныйФайл</name>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+  </type>
+</mdclass:DefinedType>
